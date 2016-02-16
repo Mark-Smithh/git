@@ -14,11 +14,11 @@
 	</style> 
 </head>
 <body>
-	<table cols="2">
+	<table>
 	<tbody>
 		<tr>
 			<td>
-				<a href="/CrunchifySpringMVCTutorial">Index JSP</a>
+				<a href="/MarkLearn">Index JSP</a>
 			</td>
 			<td>
 				<div id="StrongStuff">

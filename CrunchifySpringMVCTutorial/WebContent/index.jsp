@@ -4,28 +4,13 @@
 <html>
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
-<title>Spring MVC Tutorial Series by Crunchify.com</title>
+<title>Mark Learn</title>
 <style type="text/css">
-<%-- 
-body {
-	background-image: url('http://crunchify.com/bg.png');
-}
---%>
 #LightBlue { background-color: lightblue;}
 #Yellow { background-color: yellow;}
 </style>
 </head>
-<body>
-	<br>
-	<div style="text-align:center">
-		<h2>
-			Hey You..!! This is your 1st Spring MCV Tutorial..<br> <br>
-		</h2>
-		<h3>
-			<a href="welcome.html">Click here to See Welcome Message... </a>(to
-			check Spring MVC Controller... @RequestMapping("/welcome"))
-		</h3>
-	</div>
+<body>	
 	<div id="LightBlue">
 		<a href="mark.html">Mark Controller</a>
 	</div>
