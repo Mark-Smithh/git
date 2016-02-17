@@ -1,4 +1,4 @@
-package com.crunchify.controller;
+package com.mark.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;

@@ -1,4 +1,4 @@
-package com.crunchify.process;
+package com.mark.process;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -15,10 +15,10 @@ public class GetNames {
 	}
 
 	public void setNameMap(Map<String, String> nameMap) {
-		nameMap.put("name1","Mark");
-		nameMap.put("name2","Pam");
-		nameMap.put("name3","Nia");
-		nameMap.put("name4","Jayda");		
+		nameMap.put("name1","Ya");
+		nameMap.put("name2","Yo");
+		nameMap.put("name3","Joe");
+		nameMap.put("name4","Doe");		
 		this.nameMap = nameMap;
 	}
 
@@ -28,15 +28,15 @@ public class GetNames {
 
 	public void setNameList(List<String> nameList) {
 		nameList = new ArrayList<String>();
-		nameList.add("Mark");
-		nameList.add("Pam");
-		nameList.add("Nia");
-		nameList.add("Jayda");		
+		nameList.add("Ya");
+		nameList.add("Yo");
+		nameList.add("Joe");
+		nameList.add("Doe");		
 		this.nameList = nameList;
 	}
 
 	public void getThem(){
-		String[] names = {"Mark","Pam","Nia","Jayda"};		
+		String[] names = {"Ya","Yo","Joe","Doe"};		
 		setNames(names);
 	}
 	

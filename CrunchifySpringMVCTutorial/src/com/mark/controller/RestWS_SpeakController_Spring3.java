@@ -1,4 +1,4 @@
-package com.crunchify.controller;
+package com.mark.controller;
 
 import java.util.concurrent.atomic.AtomicLong;
 
@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
-import com.crunchify.process.Greeting;
+import com.mark.process.Greeting;
 
 @Controller
 @RequestMapping("/speak")
@@ -18,7 +18,7 @@ public class RestWS_SpeakController_Spring3 {
 	private final AtomicLong counter = new AtomicLong();
 		
 	//ur1
-	//http://localhost:8080/CrunchifySpringMVCTutorial/rest/speak/Mark
+	//http://localhost:8080/MarkLearn/rest/speak/Mark
 	@RequestMapping(value="{name}", method = RequestMethod.GET)
 	public @ResponseBody Greeting greeting(@PathVariable String name) {
 		if (StringUtils.isEmpty(name)){
@@ -29,7 +29,7 @@ public class RestWS_SpeakController_Spring3 {
 	}
 	
 	//url
-	//http://localhost:8080/CrunchifySpringMVCTutorial/rest/speak
+	//http://localhost:8080/MarkLearn/rest/speak
 	@RequestMapping("")
 	public @ResponseBody Greeting greeting1() {		
 		return new Greeting(counter.incrementAndGet(),String.format(template, "world"));		

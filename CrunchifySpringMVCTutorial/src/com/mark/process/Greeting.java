@@ -1,4 +1,4 @@
-package com.crunchify.process;
+package com.mark.process;
 
 public class Greeting {
 	private final long id;

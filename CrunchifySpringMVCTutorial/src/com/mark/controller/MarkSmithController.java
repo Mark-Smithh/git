@@ -1,4 +1,4 @@
-package com.crunchify.controller;
+package com.mark.controller;
 
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -7,7 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.crunchify.process.GetNames;
+import com.mark.process.GetNames;
 
 @Controller
 public class MarkSmithController {	
