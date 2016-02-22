@@ -1,21 +1,10 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
   <modelVersion>4.0.0</modelVersion>
-  <!-- 
-  <groupId>CrunchifySpringMVCTutorial</groupId>
-  <artifactId>CrunchifySpringMVCTutorial</artifactId>
-   -->
   <groupId>MarkLearn</groupId>
   <artifactId>MarkLearn</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
-  
- <!--  
- <distributionManagement>
-    <downloadUrl></downloadUrl>
-    <status>deployed</status>
-  </distributionManagement>
-  --> 
-  
+   
   <build>
     <sourceDirectory>src</sourceDirectory>
     <plugins>
@@ -106,7 +95,7 @@
     </dependency>
     <!-- END for REST web service allows SPRING to return JSON -->
 
-	<!-- for unMarshall XML Binding framework-->
+	<!-- for JAXB marshall and unMarshall XML Binding framework-->
   	<dependency>
 		<groupId>org.springframework</groupId>
 		<artifactId>spring-oxm</artifactId>
@@ -124,7 +113,7 @@
         <artifactId>xercesImpl</artifactId>
         <version>2.8.1</version>
     </dependency> 
-	<!-- END for unMarshall XML Binding framework-->  	
+	<!-- END for JAXB marshall and unmarshall XML Binding framework-->  	
 	
 	<!-- needed to use @Bean annotation-->
 	<dependency>
