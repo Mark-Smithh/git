@@ -10,7 +10,7 @@ import com.mark.process.Coffee;
 
 @Controller
 @RequestMapping("/coffee")
-public class JaxB_Marshal_CoffeeController {
+public class XmlReturnCoffeeController {
 	
 	//url
 	//http://localhost:8080/MarkLearn/jaxBee/coffee/Vanilla

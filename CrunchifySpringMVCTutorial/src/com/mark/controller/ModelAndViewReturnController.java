@@ -10,7 +10,7 @@ import org.springframework.web.servlet.ModelAndView;
 import com.mark.process.GetNames;
 
 @Controller
-public class MarkSmithController {	
+public class ModelAndViewReturnController {	
 	@RequestMapping("/mark")
 	public ModelAndView doIt(){
 		GetNames gN = new GetNames();

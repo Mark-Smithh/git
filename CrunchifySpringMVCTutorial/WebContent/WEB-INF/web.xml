@@ -18,6 +18,7 @@
     <url-pattern>/welcome.html</url-pattern>
     <url-pattern>*.html</url-pattern>
     <url-pattern>/rest/*</url-pattern>
+    <url-pattern>/returnXML/*</url-pattern>
     <url-pattern>/jaxBee/*</url-pattern>
   </servlet-mapping>
   <listener>
