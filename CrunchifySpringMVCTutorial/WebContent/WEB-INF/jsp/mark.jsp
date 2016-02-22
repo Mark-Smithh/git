@@ -14,13 +14,14 @@
 	</style> 
 </head>
 <body>
-	<table>
+	<table border="0" width="100%">
 	<tbody>		
 		<tr>
-			<td>
+			<td width="15%">
 				<jsp:include page="/WEB-INF/jsp/navigation.jsp" />	
 			</td>
-			<td>
+			<td width="85%">
+				<center>
 				<div id="StrongStuff">
 					<strong>Hello: </strong><c:out value="${gN.names[0]}" /><br />
 				</div>	
@@ -50,6 +51,7 @@
 			    		<c:out value="${entry.value}" />
 					</c:forEach>
 				</div>
+				</center>
 			</td>
 		</tr>
 	</tbody>

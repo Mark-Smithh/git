@@ -33,6 +33,8 @@
 </style>
 </head>
 <body>			
+	<a href="/MarkLearn">Home</a>
+	<br/><br/>
 	<div id="LightBlue">Model and View</div>
 	<div id="">
 		<a href="/MarkLearn/mark.html">Mark Controller</a>

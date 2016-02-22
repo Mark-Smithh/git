@@ -11,13 +11,15 @@
 </style>
 </head>
 <body>
-<table>
+<table border="0" width="100%">
 	<tr>
-	<td>
+	<td width="15%">
 		<jsp:include page="/WEB-INF/jsp/navigation.jsp" />	
 	</td>
-	<td>
-		<c:out value="Marshall and unmarshall successful?"/> <c:out value="${jax.done}"/>	
+	<td width="85%">		
+		<center>
+		<c:out value="Marshall and unmarshall successful?"/> <c:out value="${jax.done}"/>
+		</center>	
 	</td>	
 	</tr>
 </table>
