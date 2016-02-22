@@ -29,4 +29,11 @@
 		contain beans that are shared between all servlets in a webapp. If you only have one servlet, 
 		then there's not really much point, unless you have a specific use for it.
 	-->	
+	
+	<bean id="XMLConverter" class="com.mark.core.XMLConverter">
+		<property name="marshaller" ref="castorMarshaller" />
+		<property name="unmarshaller" ref="castorMarshaller" />
+	</bean>
+	
+	<bean id="castorMarshaller" class="org.springframework.oxm.castor.CastorMarshaller" />
 </beans>

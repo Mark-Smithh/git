@@ -15,10 +15,10 @@
 </head>
 <body>
 	<table>
-	<tbody>
+	<tbody>		
 		<tr>
 			<td>
-				<a href="/MarkLearn">Index JSP</a>
+				<jsp:include page="/WEB-INF/jsp/navigation.jsp" />	
 			</td>
 			<td>
 				<div id="StrongStuff">
