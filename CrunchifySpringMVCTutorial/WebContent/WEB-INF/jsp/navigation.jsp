@@ -5,32 +5,6 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Mark Learn</title>
-<style type="text/css">
-	#LightBlue { background-color: lightblue;}
-	#Yellow { background-color: yellow;}
-	a:link {    	 
-    	 color: red;
-    	 text-decoration: none;    	 
-	}
-
-	/* visited link */
-	a:visited {
-	    color: red;
-	    text-decoration: none;
-	}
-	
-	/* mouse over link */
-	a:hover {
-	     color: blue;
-	     text-decoration: underline;
-	}
-	
-	/* selected link */
-	a:active {
-	     color: red;
-	     text-decoration: none;
-	}
-</style>
 </head>
 <body>			
 	<a href="/MarkLearn">Home</a>

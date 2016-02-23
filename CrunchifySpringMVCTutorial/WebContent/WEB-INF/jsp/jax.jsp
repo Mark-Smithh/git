@@ -6,9 +6,7 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>JaxB</title>
-<style>
-	#Yellow { background-color: yellow;}
-</style>
+<jsp:include page="/WEB-INF/jsp/header.jsp" />	
 </head>
 <body>
 <table border="0" width="100%">
@@ -16,12 +14,11 @@
 	<td width="15%">
 		<jsp:include page="/WEB-INF/jsp/navigation.jsp" />	
 	</td>
-	<td width="85%">		
-		<center>
-		<c:out value="Marshall and unmarshall successful?"/> <c:out value="${jax.done}"/>
-		</center>	
+	<td width="85%" class="center">		
+		<c:out value="Marshall and unmarshall successful?"/> <c:out value="${jax.done}"/>			
 	</td>	
 	</tr>
+	<jsp:include page="/WEB-INF/jsp/jQueryFooter.jsp" />
 </table>
 </body>
 </html>

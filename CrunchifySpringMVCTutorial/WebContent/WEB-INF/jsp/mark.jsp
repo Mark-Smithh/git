@@ -6,12 +6,7 @@
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 	<title>Mark JSP 4</title>
-	<style type="text/css">
-		#StrongStuff{background-color: red;}
-		#ListStuff{background-color:gray;}
-		#EachStuff{background-color:purple;}	
-		#MapStuff{background-color:yellow;}
-	</style> 
+	<jsp:include page="/WEB-INF/jsp/header.jsp" />
 </head>
 <body>
 	<table border="0" width="100%">
@@ -54,6 +49,7 @@
 				</center>
 			</td>
 		</tr>
+		<jsp:include page="/WEB-INF/jsp/jQueryFooter.jsp" />
 	</tbody>
 	</table>
 </body>
