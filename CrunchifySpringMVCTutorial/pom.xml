@@ -135,6 +135,6 @@
 	    <artifactId>junit</artifactId>
     	<version>4.11</version>    	
 	</dependency>
-	<!-- end add JUNIT -->
+	<!-- end add JUNIT -->	
   </dependencies>
 </project>
