@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.ResponseBody;
 
 import com.mark.process.Greeting;
-
+// In Spring 3, to output JSON data, just put Jackson library in the project classpath.
 @Controller
 @RequestMapping("/speak")
 public class RestWS_SpeakController_Spring3 {

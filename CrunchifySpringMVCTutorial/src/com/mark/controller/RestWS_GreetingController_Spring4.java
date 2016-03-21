@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 import com.mark.process.Greeting;
-
+//In Spring 3, to output JSON data, just put Jackson library in the project classpath.
 @RestController
 public class RestWS_GreetingController_Spring4 {
 	
